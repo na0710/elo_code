@@ -1,0 +1,202 @@
+p
+{
+  color:white;
+  font-size:35px;
+}
+body
+{
+ background-image: url("http://thumbs.dreamstime.com/t/contractor-silhouette-working-roof-top-blue-sky-background-41083690.jpg"); 
+ background-repeat:no-repeat;
+ background-size: 100% 100% ;
+}
+/*img 
+{
+  width:200px;
+  height:200px;
+}*/
+span
+{
+  background-color:#4c4c33;
+}
+h1
+{
+   font-size:60px;
+   margin-top:25px;
+   margin-left:25px;
+  font-family: ‘Courier New’, Courier, monospace
+}
+.bmenu{
+    padding: 0px;
+    margin: 100px 250px 200px;
+    position: relative;
+    color:#d4d4aa;
+}
+.bmenu li{
+    font-size: 30px;
+    display: block;
+}
+.bmenu li a{
+	color:#d4d4aa;
+	display: block;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 5px #fff;
+	letter-spacing: 1px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.bmenu:hover li a{
+	text-shadow: 0px 0px 5px #0d1a3a;
+}
+.bmenu li a:hover{
+	color: #fff;
+	text-shadow: 0px 0px 1px #fff;
+	padding-left: 10px;
+}
+.menuH
+{
+    
+    margin: 15px 25px;
+    float:none;
+    width:55%;
+    behavior: url("/horizontal/menuh/cssmenu.htc");
+    height: 36px;
+    background: #d4d4aa;
+    border: 1px solid #BBB;
+    position:relative;
+    z-index:4;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    padding: 0;
+}
+
+.menuH li
+{
+    padding: 0;
+    
+    float: left;
+    height: 36px;
+    position: relative;
+}
+.menuH li:hover, .menuH li.onhover
+{
+    background: white url(bg.gif) repeat-x 0 -48px;
+}
+
+ul.menuH a
+{
+    padding: 0 30px;
+    line-height: 36px; 
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    display: block;
+    outline: 0;
+    text-decoration: none;
+}
+.menuH a:hover
+{
+    color: red;
+}
+.menuH a.arrow
+{
+    background: url(arrow.gif) no-repeat right center;
+}
+.menuH ul a.arrow
+{
+    background: url(right.gif) no-repeat 97% center;
+}
+ 
+        
+       
+.menuH .menuRight
+{
+    float: right;
+    margin-right: 0px;
+}
+        
+
+.menuH li.separator
+{
+    font-size:0;
+    overflow:hidden;
+    border-left:1px solid #F7F7F7;
+    border-right:1px solid #BBBBBB;
+}
+               
+        
+
+        
+ul.menuH ul
+{
+    width:260px;
+    position: absolute;
+    left: -9999px;
+    border: 1px solid #DDD;
+    border-top: 0; 
+    background: #FFF;    
+    text-align: left;
+    list-style: none; margin: 0;  
+    /*Following 1px(padding-right) will determine how much it is overlapped by the sub-sub-menu */
+    padding: 10px 0;
+    box-sizing:content-box;
+}
+
+.menuH li li
+{
+    float: none;
+    white-space:nowrap;
+    height: 26px;
+}
+.menuH li li:hover, .menuH li li.onhover
+{
+    background:#f7f7f7;
+}
+.menuH ul 
+{
+    padding: 0 20px;
+    line-height: 30px;
+    font-size: 0.9em;
+    font-weight: normal;
+    color: #0066CC;
+    text-align: left;
+}
+
+.menuH ul hover
+{
+    color: red;
+}
+
+.menuH li:hover ul, .menuH li.onhover ul
+{
+    left: -1px;
+    top: auto;
+}
+
+
+.menuH ul ul
+{
+    border-top: 1px solid #DDD;
+}
+
+
+
+
+  
+.menuH ul 
+{
+    -moz-border-radius: 0px 0px 4px 4px;
+    -webkit-border-radius: 0px 0px 4px 4px;
+    border-radius: 0px 0px 4px 4px;
+
+    -moz-box-shadow: 0px 6px 6px #CCC;
+    -webkit-box-shadow: 0px 6px 6px #CCC;
+    box-shadow: 0px 6px 6px #CCC;  
+    
+            
+   
+    background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFFFF), to(#EEEEEE)); 
+}
